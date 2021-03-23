@@ -12,7 +12,6 @@ import {
 // --------------- REDUCER ------------------
 
 const products_reducer = (state, action) => {
-	console.log(action);
 	switch (action.type) {
 		// --- SIDEBAR ----
 		case SIDEBAR_OPEN:
