@@ -60,8 +60,6 @@ const products_reducer = (state, action) => {
 		default:
 			throw new Error(`WRONG ACTION TYPE: ${action.type}`);
 	}
-	return state;
-	throw new Error(`No Matching "${action.type}" - action type`);
 };
 
 export default products_reducer;

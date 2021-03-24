@@ -26,11 +26,3 @@ ReactDOM.render(
 	</Auth0Provider>,
 	document.getElementById('root')
 );
-
-// e-mail endpoint: https://formspree.io/f/xgerwoja
-{
-	/* <form
-  action="https://formspree.io/f/xgerwoja"
-  method="POST"
-></form> */
-}
